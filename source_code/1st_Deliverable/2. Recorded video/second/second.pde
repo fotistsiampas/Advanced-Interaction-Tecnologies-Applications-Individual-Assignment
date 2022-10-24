@@ -1,31 +1,19 @@
-// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
-
-// Example 16-4: Display QuickTime movie
-
 import processing.video.*;
-
-// Step 1. Declare Movie object
-Movie movie; 
+Movie myMovie;
 
 void setup() {
-  size(320, 240);
-
-  // Step 2. Initialize Movie object
-  // Movie file should be in data folder
-  movie = new Movie(this, "countdown.mov"); 
-
-  // Step 3. Start movie playing
-  movie.loop();
-}
-
-// Step 4. Read new frames from movie
-void movieEvent(Movie movie) {
-  movie.read();
+  size(500, 500);
+  frameRate(30);
+  myMovie = new Movie(this, "countdown.mp4");
+  myMovie.speed(2.0);
+  myMovie.loop();
 }
 
 void draw() {
-  // Step 5. Display movie.
-  image(movie, 0, 0);
+  float r = map(mouseX,0,width,0,4);
+  myMovie.speed(r);
+  if (myMovie.available()) {
+    myMovie.read();
+  }
+  image(myMovie, 0, 0);
 }
