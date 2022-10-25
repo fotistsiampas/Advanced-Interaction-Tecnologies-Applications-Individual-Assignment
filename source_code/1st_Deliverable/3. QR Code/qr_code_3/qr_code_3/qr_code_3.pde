@@ -3,7 +3,7 @@ PImage img;
 void setup() {
   size(400, 400);
   // Make a new instance of a PImage by loading an image file
-  img = loadImage("qrcode.png");
+  img = loadImage("qr_code.png");
 }
 
 void draw() {
