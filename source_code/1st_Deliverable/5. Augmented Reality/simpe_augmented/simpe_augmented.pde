@@ -39,7 +39,7 @@ void draw()
   nya.beginTransform(0);
   fill(0,0,255);
  image(img, 0,0);
- scale(100,100,100);
+
 
    
   nya.endTransform();

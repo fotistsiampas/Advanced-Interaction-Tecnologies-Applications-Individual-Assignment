@@ -51,7 +51,7 @@ void draw() {
   if (decoder.decoding()) {
     // Display the image being decoded
     PImage show = decoder.getImage();
-    image(show, 0, 0, show.width/4, show.height/4); 
+    image(show, 0, 0, show.width/8, show.height/8); 
     statusMsg = "Decoding image";
     for (int i = 0; i < (frameCount/2) % 10; i++) statusMsg += ".";
   }
