@@ -9,19 +9,20 @@
 */
 import processing.video.*;
 import jp.nyatla.nyar4psg.*;
-PImage img;
+
 Capture cam;
 MultiMarker nya;
+PImage img;
 
 void setup() {
-  size(1080,720,P3D);
-  
+  size(640,480,P3D);
+  colorMode(RGB, 100);
   println(MultiMarker.VERSION);
-  cam=new Capture(this,1080,720);
-  nya=new MultiMarker(this,width,height,"../../data/camera_para.dat",NyAR4PsgConfig.CONFIG_PSG);
-  nya.addARMarker("../../data/patt.hiro",-80);
+  cam=new Capture(this,640,480);
+  nya=new MultiMarker(this,width,height,"../augmented_reality/data/camera_para.dat",NyAR4PsgConfig.CONFIG_PSG);
+  nya.addARMarker("../augmented_reality/data/patt.hiro",80);
   cam.start();
-   img = loadImage("charizard.png");
+   img = loadImage("strawberry.jpg");
 }
 
 void draw()
@@ -31,16 +32,14 @@ void draw()
   }
   cam.read();
   nya.detect(cam);
- 
+  //background(0);
   nya.drawBackground(cam);
   if((!nya.isExist(0))){
     return;
   }
   nya.beginTransform(0);
   fill(0,0,255);
- image(img, 0,0);
-
-
-   
+  //translate(0,0,20);
+   image(img, 0, 0);
   nya.endTransform();
 }
