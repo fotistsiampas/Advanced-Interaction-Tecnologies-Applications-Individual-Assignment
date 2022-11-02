@@ -71,7 +71,7 @@ void keyReleased() {
     break;
   case 'f':    // f runs a test on a file
     PImage preservedFrame = loadImage("qr_code.png");
-    //link("http://www.processing.org");
+    link("https://github.com/fotistsiampas");
     // Decode file
     decoder.decodeImage(preservedFrame);
     break;
