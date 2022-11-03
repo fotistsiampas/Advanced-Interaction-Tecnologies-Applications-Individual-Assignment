@@ -11,8 +11,9 @@
 
 
 # 1st Deliverable
-1.Video Capture
-Το πρώτο παραδοτέο
+##1.Video Capture
+
+#Το πρώτο παραδοτέο
 
 # 2nd Deliverable
 
