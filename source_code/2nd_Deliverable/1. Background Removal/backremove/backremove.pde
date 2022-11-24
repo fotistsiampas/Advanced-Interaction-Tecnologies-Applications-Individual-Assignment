@@ -24,6 +24,7 @@ void captureEvent(Capture video) {
 
 
 void draw() {
+  //threshold = map(mouseX, 0, width, 5, 50);
 
   loadPixels();
   video.loadPixels(); 
@@ -40,20 +41,28 @@ void draw() {
 
 
       float r1 = red(fgColor);
-      float r2 = blue(fgColor);
-      float r3 = green(fgColor);
-      float g3 = green(bgColor);
-      float diff = dist(r1, r2, r3, g3);
+      float b1 = blue(fgColor);
+      float g1 = green(fgColor);
+      float r2 = red(bgColor);
+      float b2 = blue(bgColor);
+      float g2 = green(bgColor);
+      float diff = dist(r1, b1, g1,r2, b2 , g2);
 
 
-      if (diff > threshold) {
+      if (diff < threshold) {
 
-          pixels[loc] = fgColor;
+        pixels[loc] = backgroundReplace.pixels[loc];
       } else {
 
-       pixels[loc] = backgroundReplace.pixels[loc];
+        pixels[loc] = fgColor;
       }
     }
   }
   updatePixels();
+}
+
+void mousePressed() {
+
+  backgroundImage.copy(video, 0, 0, video.width, video.height, 0, 0, video.width, video.height);
+  backgroundImage.updatePixels();
 }
