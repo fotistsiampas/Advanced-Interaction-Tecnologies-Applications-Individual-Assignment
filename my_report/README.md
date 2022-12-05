@@ -36,6 +36,9 @@
 
 ![320x240ABGR](https://user-images.githubusercontent.com/94792023/200048981-1a65b990-cde3-4d97-a62e-cc2fa0f598c5.png)
 # 2nd Deliverable
+#1.Background Removal
+
+
 
 
 # 3rd Deliverable 
