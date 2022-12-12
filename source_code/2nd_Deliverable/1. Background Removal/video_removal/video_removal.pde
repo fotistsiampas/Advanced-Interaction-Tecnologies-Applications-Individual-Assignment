@@ -10,7 +10,7 @@ float threshold = 20;
 
 void setup() {
   size(480, 360);
-  video = new Capture(this, width, height, 30);
+  video = new Capture(this, 480, 360, "pipeline:autovideosrc");
   video.start();
 
 
@@ -24,16 +24,17 @@ void captureEvent(Capture video) {
 }
 
 void movieEvent(Movie backgroundReplace) {
-   backgroundReplace.read();
+  backgroundReplace.read();
 }
 
 void draw() {
   threshold = map(mouseX, 0, width, 5, 50);
 
+  image(backgroundReplace, 0, 0, width, height);
+
   loadPixels();
   video.loadPixels(); 
-
-  image(backgroundReplace , 0 ,0, width , height);
+  backgroundReplace.loadPixels();
 
 
   for (int x = 0; x < video.width; x ++ ) {
@@ -51,15 +52,14 @@ void draw() {
       float r2 = red(bgColor);
       float b2 = blue(bgColor);
       float g2 = green(bgColor);
-      float diff = dist(r1, b1, g1,r2, b2 , g2);
+      float diff = dist(r1, b1, g1, r2, b2, g2);
 
 
-      if (diff < threshold) {
-
-               pixels[loc] = backgroundReplace.pixels[loc];
-      } else {
-
-        pixels[loc] = fgColor; 
+      if (diff > threshold) {
+        pixels[loc] = fgColor;
+      } 
+      else {
+        pixels[loc] = backgroundReplace.pixels[loc];
       }
     }
   }
