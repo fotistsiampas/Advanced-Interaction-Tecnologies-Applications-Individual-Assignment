@@ -37,6 +37,13 @@
 ![320x240ABGR](https://user-images.githubusercontent.com/94792023/200048981-1a65b990-cde3-4d97-a62e-cc2fa0f598c5.png)
 # 2nd Deliverable
 # 1.Background Removal
+Για την πραγματοποίηση της αντικατάστασης υποβάθρου χρησιμοποίησα η άσκσηση 16.6 και έψαξα ώστε να βρώ ποιές θα είναι οι απαραίτητες αλλαγές.
+Με την εντολή "Movie backgroundReplace;".
+Στην συνέχεια έβαλα το backgroundReplace = new Movie(this,"countdown.mp4");) 
+Με έναν παρόμοιο τρόπο επεξεργάστηκα και την εικόνα
+Tο αποτέλεσμα ήταν αυτό :
+![image remove](https://user-images.githubusercontent.com/94792023/207693166-5dc24cb3-8d95-4c0f-a43f-a12f74210b9e.png)
+![video remove](https://user-images.githubusercontent.com/94792023/207693212-1e5b4890-8bb5-4e75-8eac-afbc32c4a174.png)
 
 
 
@@ -52,5 +59,7 @@
 
 
 # Sources
+
+
 
 
