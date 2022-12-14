@@ -45,6 +45,11 @@ Tο αποτέλεσμα ήταν αυτό :
 ![image remove](https://user-images.githubusercontent.com/94792023/207693166-5dc24cb3-8d95-4c0f-a43f-a12f74210b9e.png)
 ![video remove](https://user-images.githubusercontent.com/94792023/207693212-1e5b4890-8bb5-4e75-8eac-afbc32c4a174.png)
 
+# 2.Motion Detection
+Για αυτό το παραδοτέο άνοιξα το παράδειγμα 16.7 και άλλαξα μόνο το χρώμα και το μέγεθος της μπάλας
+![βαλλ](https://user-images.githubusercontent.com/94792023/207695140-253d12ed-7cd6-4953-9e17-ef9c8a1bea4d.png)
+
+# 3.Background Substraction
 
 
 
@@ -59,6 +64,7 @@ Tο αποτέλεσμα ήταν αυτό :
 
 
 # Sources
+
 
 
 
