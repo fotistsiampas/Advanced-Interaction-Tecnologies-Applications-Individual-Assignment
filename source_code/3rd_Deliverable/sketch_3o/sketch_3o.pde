@@ -55,6 +55,7 @@ void draw()
     if (tobj.getSymbolID()==0)
     {
       translate(tobj.getScreenX(width), tobj.getScreenY(height));
+      imageMode(CENTER);
       //rotate(tobj.getAngle());
       image(img, 0, 0, imagewidth, imageheight);
     }
@@ -140,7 +141,7 @@ void removeTuioObject(TuioObject tobj) {
    if (tobj.getSymbolID()==4){
    
    bright=255;
-   tint(255,150);
+   tint(255,255);
    
    }
   
