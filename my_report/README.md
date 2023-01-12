@@ -98,6 +98,30 @@ Tο αποτέλεσμα ήταν αυτό :
 # 3rd Deliverable 
 Αρχικά κατέβασα την βιβλιοθήκη απο τον σύνδεσμο που μας δώθηκε και την έβαλα μέσα στα libraries του processing. Έπειτα αφού άνοιξα το παράδειγμα που μας προτείνεται με βάση άρχισα να εκτελώ την εργασία. Ψάχνωντας λίγο στο διαδίκτυο και βρίσκωντας κάποια βίντεο τα οποία μας τα είχατε δείξει και στα εργαστήρια, βοηθήθηκα αρκετά με το [βίνετο](https://www.youtube.com/watch?v=tJ0aZzST-N4). Επίσης έλαβα μια μικρή βοήθεια από τους συναδέλφους διότι όταν έβαζα ένα στοιχείο μέσα στο simulator όταν το αφαιρούσα από την σκηνή δεν άλλαζε η μορφή. 
 
+`Στοιχειο 0 εισαγωγή εικόνας`
+
+![eisagvgh](https://user-images.githubusercontent.com/94792023/212184969-2c0448cd-c897-4495-83c4-b1e189c0ad9e.png)
+
+`Στοιχείο 1 rotate`
+
+![rotate](https://user-images.githubusercontent.com/94792023/212185191-80bf5604-567f-4376-ab63-ddebaa4ad046.png)
+
+
+`Στοιχείο 2 zoom`
+
+![zoom](https://user-images.githubusercontent.com/94792023/212185470-b9e2e02e-36d0-4ca2-8f62-143fe298cd84.png)
+
+
+`Στοιχείο 3 αλλαγή χρώματος`
+
+![allagh](https://user-images.githubusercontent.com/94792023/212185667-6b111230-4db6-4e21-9d04-1e05242bf046.png)
+
+
+`Στοιχείο 4 opacity`
+
+![opacity](https://user-images.githubusercontent.com/94792023/212185774-223e3d79-d7ed-4e3e-ad96-22ee4f538272.png)
+
+
 # Bonus 
 
 
@@ -105,6 +129,8 @@ Tο αποτέλεσμα ήταν αυτό :
 
 
 # Sources
+
+
 
 
 
