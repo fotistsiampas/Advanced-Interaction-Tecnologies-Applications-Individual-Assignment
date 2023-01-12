@@ -15,7 +15,7 @@ int imagewidth, imageheight;
 float zoom = 70;
 boolean loadImage= false ;
 float green=255;
-
+float bright=255;
 boolean verbose = true; 
 boolean callback = true; 
 
@@ -86,6 +86,15 @@ void draw()
         green =map(tobj.getAngle(), 0, 6.2, 255, 0 );
         tint(255 , green , 255);
       }
+        if (tobj.getSymbolID()==4)
+      {
+        
+        bright =map(tobj.getAngle(), 0, 6.2, 255, 0 );
+        tint(255,150);
+        
+    
+      }
+      
     }
   }
 }
@@ -128,6 +137,13 @@ void removeTuioObject(TuioObject tobj) {
     green = 255;  
     tint(green, 255, 255);
   }
+   if (tobj.getSymbolID()==4){
+   
+   bright=255;
+   tint(255,150);
+   
+   }
+  
 }
 
 // --------------------------------------------------------------
