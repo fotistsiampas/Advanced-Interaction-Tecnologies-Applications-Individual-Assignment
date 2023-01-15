@@ -123,10 +123,25 @@ Tο αποτέλεσμα ήταν αυτό :
 
 ![opacity](https://user-images.githubusercontent.com/94792023/212185774-223e3d79-d7ed-4e3e-ad96-22ee4f538272.png)
 
+`Video`
+
+Έκανα εγκατάσταση της εφαρμογής reactVision από [εδω](https://reactivision.sourceforge.net/). Έπειτα αφού άνοιξα την εφαρμογή και έτρεξα τον ίδιο κώδικα έβαλα τα κατάλληλα fiducials μπροστά στην κάμερα.
+
+
 
  ## Ερώτηση
  
 Η διαδικασία μέσω του simulator είναι πιο γρήγορη και εύκολη από την αναγνωριση των κωδικών fiducial μέσω κάμερας καθώς η διεπαφή με τον χρήστη είναι εύκολη και εύχρηστη. Η χρήση της κάμερας καθυστερεί τον χρήστη, αφού πρέπει να εντοπίσει και να διαβάσει τα τυπωμένα fiducials. O simulator βοηθά κατά την διάρκεια της πρωτοτυποποίησης γιατί ο χρήστης βλέπει, τεστάρει και διορθώνει τον κώδικα πριν τον προσαρμόσει σε ένα project.
+
+![Screenshot (119)](https://user-images.githubusercontent.com/94792023/212502637-fa3b95db-0a33-449d-8159-cadf79891694.png)
+![Screenshot (120)](https://user-images.githubusercontent.com/94792023/212502638-0187738d-ad7c-4fe5-836c-9a2892171f54.png)
+![Screenshot (121)](https://user-images.githubusercontent.com/94792023/212502639-c570a3e4-df0e-432e-b729-dfde671ea4f8.png)
+![Screenshot (122)](https://user-images.githubusercontent.com/94792023/212502641-ad7f0a75-1954-4940-a9e2-b510e35a6312.png)
+![Screenshot (123)](https://user-images.githubusercontent.com/94792023/212502642-87ea4391-7cb4-4dc7-93b6-9590f75dbc79.png)
+![Screenshot (124)](https://user-images.githubusercontent.com/94792023/212502643-386be57f-9c2c-4d4e-87e2-99fb82bc93b4.png)
+![Screenshot (125)](https://user-images.githubusercontent.com/94792023/212502644-941fed91-f00d-42d5-a962-68130c9aeab6.png)
+![Screenshot (126)](https://user-images.githubusercontent.com/94792023/212502645-a644bb10-1152-4b9e-b0c3-d7ff155db98b.png)
+
 
 # Bonus 
 
